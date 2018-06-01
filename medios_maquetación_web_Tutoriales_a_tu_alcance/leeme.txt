@@ -1,0 +1,3 @@
+<link rel="icon" href="img/icono.png">
+
+para que el icono aparezca en la pestaña de la pagina en el navegador

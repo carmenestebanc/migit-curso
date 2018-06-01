@@ -1,0 +1,378 @@
+  /* para poder acceder  a esta hoja de estilo a traves  de un comando  de SUBLIME 
+  herramientas->desarrolladores->crear snippet 
+  se copia el texto DE LA CSSS y se sustitulle el texto "Hello, ${1:this} is a ${2:snippet}."
+  luego se coloca la palabra clave EN LA ETIQUETA  <tabTrigger> Y SE DESCOMENTA 
+  se guarda migrilla.sublime-snippet
+  */
+ /*GENERAL */
+  
+/*formatiar estilos las etiquetas*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a:link, a:visited, a:active, a:hover, a:focus{
+	text-decoration: none;
+}
+.contenedor{
+	position: :relative;
+	margin: auto ;
+	width:100%;
+	height: auto;
+	clear: both; 
+}
+
+.filas{
+	position:relative;
+	margin: auto ;
+	width:100%;
+	height: auto;
+	clear: both; 
+}
+
+ /*FIN GENERAL*/ 
+
+
+/* desktop  */
+@media (min-width:1200px) {
+.desktop-12{  
+position: relative;
+float: left;
+width: 100%;
+height: auto;
+ }	
+ .desktop-11{  
+position: relative;
+float: left;
+width: 91.66666667%;
+height: auto;
+ }	
+ 
+ .desktop-10{  
+position: relative;
+float: left;
+width: 83.333333333%;
+height: auto;
+ }	
+ .desktop-9{  
+position: relative;
+float: left;
+width: 75%;
+height: auto;
+ }	
+ .desktop-8{  
+position: relative;
+float: left;
+width: 66.66666667%;
+height: auto;
+ }	
+
+.desktop-7{  
+position: relative;
+float: left;
+width: 58.33333333%;
+height: auto;
+ }	
+.desktop-6{  
+position: relative;
+float: left;
+width: 50%;
+height: auto;
+ }	
+.desktop-5{  
+position: relative;
+float: left;
+width: 41.66666667%;
+height: auto;
+ }	
+
+.desktop-4{  
+position: relative;
+float: left;
+width: 33.33333333%;
+height: auto;
+ }	
+
+.desktop-3{  
+position: relative;
+float: left;
+width: 25%;
+height: auto;
+ }	
+ .desktop-2{  
+position: relative;
+float: left;
+width: 16.66666667%;
+height: auto;
+ }	
+.desktop-1{  
+position: relative;
+float: left;
+width: 8.33333333%;
+height: auto;
+ }	
+ .desktop-0{  
+display: none;
+ }	
+}
+/*fin desktop*/
+
+/* laptop  */
+@media (max-width:1199px) and (min-width:992px){
+.laptop-12{  
+position: relative;
+float: left;
+width: 100%;
+height: auto;
+ }	
+ .laptop-11{  
+position: relative;
+float: left;
+width: 91.66666667%;
+height: auto;
+ }	
+ 
+ .laptop-10{  
+position: relative;
+float: left;
+width: 83.333333333%;
+height: auto;
+ }	
+ .laptop-9{  
+position: relative;
+float: left;
+width: 75%;
+height: auto;
+ }	
+ .laptop-8{  
+position: relative;
+float: left;
+width: 66.66666667%;
+height: auto;
+ }	
+
+.laptop-7{  
+position: relative;
+float: left;
+width: 58.33333333%;
+height: auto;
+ }	
+.laptop-6{  
+position: relative;
+float: left;
+width: 50%;
+height: auto;
+ }	
+.laptop-5{  
+position: relative;
+float: left;
+width: 41.66666667%;
+height: auto;
+ }	
+
+.laptop-4{  
+position: relative;
+float: left;
+width: 33.33333333%;
+height: auto;
+ }	
+
+.laptop-3{  
+position: relative;
+float: left;
+width: 25%;
+height: auto;
+ }	
+ .laptop-2{  
+position: relative;
+float: left;
+width: 16.66666667%;
+height: auto;
+ }	
+.laptop-1{  
+position: relative;
+float: left;
+width: 8.33333333%;
+height: auto;
+ }	
+ .laptop-0{  
+display: none;
+ }	
+	
+}
+/*fin laptop*/
+
+
+
+/* tablet  */
+@media (max-width:991px) and (min-width:768px) {
+.tablet-12{  
+position: relative;
+float: left;
+width: 100%;
+height: auto;
+ }	
+ .tablet-11{  
+position: relative;
+float: left;
+width: 91.66666667%;
+height: auto;
+ }	
+ 
+ .tablet-10{  
+position: relative;
+float: left;
+width: 83.333333333%;
+height: auto;
+ }	
+ .tablet-9{  
+position: relative;
+float: left;
+width: 75%;
+height: auto;
+ }	
+ .tablet-8{  
+position: relative;
+float: left;
+width: 66.66666667%;
+height: auto;
+ }	
+
+.tablet-7{  
+position: relative;
+float: left;
+width: 58.33333333%;
+height: auto;
+ }	
+.tablet-6{  
+position: relative;
+float: left;
+width: 50%;
+height: auto;
+ }	
+.tablet-5{  
+position: relative;
+float: left;
+width: 41.66666667%;
+height: auto;
+ }	
+
+.tablet-4{  
+position: relative;
+float: left;
+width: 33.33333333%;
+height: auto;
+ }	
+
+.tablet-3{  
+	position: relative;
+float: left;
+width: 25%;
+height: auto;
+ }	
+ .tablet-2{  
+position: relative;
+float: left;
+width: 16.66666667%;
+height: auto;
+ }	
+.tablet-1{  
+position: relative;
+float: left;
+width: 8.33333333%;
+height: auto;
+ }	
+ .tablet-0{  
+display: none;
+ }		
+}
+
+/*fin tablet*/
+
+/* phone  */
+@media (max-width:767px) {
+.phone-12{  
+position: relative;
+float: left;
+width: 100%;
+height: auto;
+ }	
+ .phone-11{  
+position: relative;
+float: left;
+width: 91.66666667%;
+height: auto;
+ }	
+ 
+ .phone-10{  
+position: relative;
+float: left;
+width: 83.333333333%;
+height: auto;
+ }	
+ .phone-9{  
+position: relative;
+float: left;
+width: 75%;
+height: auto;
+ }	
+ .phone-8{  
+position: relative;
+float: left;
+width: 66.66666667%;
+height: auto;
+ }	
+
+.phone-7{  
+position: relative;
+float: left;
+width: 58.33333333%;
+height: auto;
+ }	
+.phone-6{  
+position: relative;
+float: left;
+width: 50%;
+height: auto;
+ }	
+.phone-5{  
+position: relative;
+float: left;
+width: 41.66666667%;
+height: auto;
+ }	
+
+.phone-4{  
+position: relative;
+float: left;
+width: 33.33333333%;
+height: auto;
+ }	
+
+.phone-3{  
+position: relative;
+float: left;
+width: 25%;
+height: auto;
+ }	
+ .phone-2{  
+position: relative;
+float: left;
+width: 16.66666667%;
+height: auto;
+ }	
+.phone-1{  
+position: relative;
+float: left;
+width: 8.33333333%;
+height: auto;
+ }	
+ .phone-0{  
+display: none;
+ }			
+}
+/*fin phone*/
+
+
+

@@ -1,0 +1,8 @@
+para que el icono aparezca en la pestaña de la pagina en el navegador
+<link rel="icon" href="img/icono.png">
+
+
+metadatos
+<meta name="author" content="Tutoriales a tu alcance">
+<meta name="description" content="Acá se pone la descripción del sitio">
+<meta name="keywords" content="tutoriales, html, desarrollo web">

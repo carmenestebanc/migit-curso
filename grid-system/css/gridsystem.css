@@ -1,0 +1,431 @@
+
+/*=============================================
+GENERAL       
+=============================================*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+a:link, a:visited, a:active, a:hover, a:focus{
+	text-decoration: none;
+}
+
+.contenedor{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.filas{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+/*=====  FIN GENERAL  ======*/
+
+/*=============================================
+DESKTOP            
+=============================================*/
+
+@media (min-width:1200px){
+
+	.desktop-12{
+		position: relative;
+		float: left;
+		width:100%;
+		height: auto;
+	}
+
+	.desktop-11{
+		position: relative;
+		float: left;
+		width: 91.66666667%;
+		height: auto;
+	}
+
+	.desktop-10{
+		position: relative;
+		float: left;
+		width: 83.33333333%;
+		height: auto;
+	}
+
+	.desktop-9{
+		position: relative;
+		float: left;
+		width:75%;
+		height: auto;
+	}
+
+	.desktop-8{
+		position: relative;
+		float: left;
+		width: 66.66666667%;
+		height: auto;
+	}
+
+	.desktop-7{
+		position: relative;
+		float: left;
+		width: 58.33333333%;
+		height: auto;
+	}
+
+	.desktop-6{
+		position: relative;
+		float: left;
+		width:50%;
+		height: auto;
+	}
+
+	.desktop-5{
+		position: relative;
+		float: left;
+		width:41.66666667%;
+		height: auto;
+	}
+
+	.desktop-4{
+		position: relative;
+		float: left;
+		width:33.33333333%;
+		height: auto;
+	}
+
+	.desktop-3{
+		position: relative;
+		float: left;
+		width:25%;
+		height: auto;
+	}
+
+	.desktop-2{
+		position: relative;
+		float: left;
+		width:16.66666667%;
+		height: auto;
+	}
+
+	.desktop-1{
+		position: relative;
+		float: left;
+		width:8.33333333%;
+		height: auto;
+	}
+
+	.desktop-0{
+		display: none;
+	}
+
+}
+
+/*=====  FIN DESKTOP  ======*/
+
+/*=============================================
+LAPTOP          
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.laptop-12{
+		position: relative;
+		float: left;
+		width:100%;
+		height: auto;
+	}
+
+	.laptop-11{
+		position: relative;
+		float: left;
+		width: 91.66666667%;
+		height: auto;
+	}
+
+	.laptop-10{
+		position: relative;
+		float: left;
+		width: 83.33333333%;
+		height: auto;
+	}
+
+	.laptop-9{
+		position: relative;
+		float: left;
+		width:75%;
+		height: auto;
+	}
+
+	.laptop-8{
+		position: relative;
+		float: left;
+		width: 66.66666667%;
+		height: auto;
+	}
+
+	.laptop-7{
+		position: relative;
+		float: left;
+		width: 58.33333333%;
+		height: auto;
+	}
+
+	.laptop-6{
+		position: relative;
+		float: left;
+		width:50%;
+		height: auto;
+	}
+
+	.laptop-5{
+		position: relative;
+		float: left;
+		width:41.66666667%;
+		height: auto;
+	}
+
+	.laptop-4{
+		position: relative;
+		float: left;
+		width:33.33333333%;
+		height: auto;
+	}
+
+	.laptop-3{
+		position: relative;
+		float: left;
+		width:25%;
+		height: auto;
+	}
+
+	.laptop-2{
+		position: relative;
+		float: left;
+		width:16.66666667%;
+		height: auto;
+	}
+
+	.laptop-1{
+		position: relative;
+		float: left;
+		width:8.33333333%;
+		height: auto;
+	}
+
+	.laptop-0{
+		display: none;
+	}
+
+
+}
+
+/*=====  FIN LAPTOP  ======*/
+
+/*=============================================
+TABLET         
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.tablet-12{
+		position: relative;
+		float: left;
+		width:100%;
+		height: auto;
+	}
+
+	.tablet-11{
+		position: relative;
+		float: left;
+		width: 91.66666667%;
+		height: auto;
+	}
+
+	.tablet-10{
+		position: relative;
+		float: left;
+		width: 83.33333333%;
+		height: auto;
+	}
+
+	.tablet-9{
+		position: relative;
+		float: left;
+		width:75%;
+		height: auto;
+	}
+
+	.tablet-8{
+		position: relative;
+		float: left;
+		width: 66.66666667%;
+		height: auto;
+	}
+
+	.tablet-7{
+		position: relative;
+		float: left;
+		width: 58.33333333%;
+		height: auto;
+	}
+
+	.tablet-6{
+		position: relative;
+		float: left;
+		width:50%;
+		height: auto;
+	}
+
+	.tablet-5{
+		position: relative;
+		float: left;
+		width:41.66666667%;
+		height: auto;
+	}
+
+	.tablet-4{
+		position: relative;
+		float: left;
+		width:33.33333333%;
+		height: auto;
+	}
+
+	.tablet-3{
+		position: relative;
+		float: left;
+		width:25%;
+		height: auto;
+	}
+
+	.tablet-2{
+		position: relative;
+		float: left;
+		width:16.66666667%;
+		height: auto;
+	}
+
+	.tablet-1{
+		position: relative;
+		float: left;
+		width:8.33333333%;
+		height: auto;
+	}
+
+	.tablet-0{
+		display: none;
+	}
+
+
+}
+
+
+/*=====  FIN TABLET  ======*/
+
+/*=============================================
+PHONES         
+=============================================*/
+
+@media (max-width:767px){
+
+	.phones-12{
+		position: relative;
+		float: left;
+		width:100%;
+		height: auto;
+	}
+
+	.phones-11{
+		position: relative;
+		float: left;
+		width: 91.66666667%;
+		height: auto;
+	}
+
+	.phones-10{
+		position: relative;
+		float: left;
+		width: 83.33333333%;
+		height: auto;
+	}
+
+	.phones-9{
+		position: relative;
+		float: left;
+		width:75%;
+		height: auto;
+	}
+
+	.phones-8{
+		position: relative;
+		float: left;
+		width: 66.66666667%;
+		height: auto;
+	}
+
+	.phones-7{
+		position: relative;
+		float: left;
+		width: 58.33333333%;
+		height: auto;
+	}
+
+	.phones-6{
+		position: relative;
+		float: left;
+		width:50%;
+		height: auto;
+	}
+
+	.phones-5{
+		position: relative;
+		float: left;
+		width:41.66666667%;
+		height: auto;
+	}
+
+	.phones-4{
+		position: relative;
+		float: left;
+		width:33.33333333%;
+		height: auto;
+	}
+
+	.phones-3{
+		position: relative;
+		float: left;
+		width:25%;
+		height: auto;
+	}
+
+	.phones-2{
+		position: relative;
+		float: left;
+		width:16.66666667%;
+		height: auto;
+	}
+
+	.phones-1{
+		position: relative;
+		float: left;
+		width:8.33333333%;
+		height: auto;
+	}
+
+	.phones-0{
+		display: none;
+	}
+
+
+}
+
+
+/*=====  FIN PHONES  ======*/
+
